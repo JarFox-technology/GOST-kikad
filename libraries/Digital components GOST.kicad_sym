@@ -1,0 +1,10623 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "74LVC125A"
+		(pin_names
+			(offset 2)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DD"
+			(at 0 33.5 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 0 -32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/817/DOC034817148.pdf"
+			(at 0 -34.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 fuffers with 2 inputs and 1 outputs"
+			(at 0 -37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "buf, buffers, 74LVC125A, DD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "74LVC125A_0_1"
+			(polyline
+				(pts
+					(xy -11 16.5) (xy -7 16.5)
+				)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11 12) (xy -7 12)
+				)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11 7) (xy -7 7)
+				)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11 2) (xy -7 2)
+				)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "74LVC125A_1_1"
+			(rectangle
+				(start -15 30)
+				(end -5 20)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 25) (xy -20 25)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -15 20)
+				(end -5 -5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 15) (xy -20 15)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 10) (xy -20 10)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 5) (xy -20 5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 0) (xy -20 0)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -15 -5)
+				(end -5 -30)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -10) (xy -20 -10)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -15) (xy -20 -15)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -20) (xy -20 -20)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -25) (xy -20 -25)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5 30)
+				(end 5 -30)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 30)
+				(end 15 -30)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 25) (xy 15 25)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 20) (xy 15 20)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 15) (xy 15 15)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 10) (xy 15 10)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -25) (xy 15 -25)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "14"
+				(at -18 27.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "1"
+				(at -18 17.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "4"
+				(at -18 12.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "10"
+				(at -18 7.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "13"
+				(at -18 2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "2"
+				(at -18 -7.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "5"
+				(at -18 -12.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "9"
+				(at -18 -17.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "12"
+				(at -18 -22.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "VCC"
+				(at -10.5 25 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "1OE"
+				(at -10.5 14.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "2OE"
+				(at -10.5 10 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "3OE"
+				(at -10.5 5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "4OE"
+				(at -10.5 0 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "1A"
+				(at -10.5 -10 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "2A"
+				(at -10.5 -15 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "3A"
+				(at -10.5 -20 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "4A"
+				(at -10.5 -25 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "BUF"
+				(at 0 25 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "1Y"
+				(at 9.5 25 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "2Y"
+				(at 9.5 20 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "3Y"
+				(at 9.5 15 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "4Y"
+				(at 9.5 10 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "GND"
+				(at 9.5 -25 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "3"
+				(at 17 27.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "6"
+				(at 17 22.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "8"
+				(at 17 17.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "11"
+				(at 17 12.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "7"
+				(at 17 -22.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20 25 0)
+				(length 5)
+				(name "VCC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20 15 0)
+				(length 5)
+				(name "1OE"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20 10 0)
+				(length 5)
+				(name "2OE"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20 5 0)
+				(length 5)
+				(name "3OE"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20 0 0)
+				(length 5)
+				(name "4OE"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20 -10 0)
+				(length 5)
+				(name "1A"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20 -15 0)
+				(length 5)
+				(name "2A"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20 -20 0)
+				(length 5)
+				(name "3A"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20 -25 0)
+				(length 5)
+				(name "4A"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at 20 25 180)
+				(length 5)
+				(name "1Y"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at 20 20 180)
+				(length 5)
+				(name "2Y"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at 20 15 180)
+				(length 5)
+				(name "3Y"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at 20 10 180)
+				(length 5)
+				(name "4Y"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 20 -25 180)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "AMS1117-3.3"
+		(pin_names
+			(offset 2)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DA"
+			(at 0 9 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
+			(at 0 -6.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 0 -8.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "AMS1117, DA, 3.3, AMS1117-3.3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AMS1117-3.3_1_1"
+			(rectangle
+				(start -15 5)
+				(end -5 -5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 2) (xy -20 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -2.5) (xy -20 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5 5)
+				(end 5 -5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 5)
+				(end 15 -5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 2.5) (xy 15 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "3"
+				(at -18 4.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "1"
+				(at -18 0 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "VIN"
+				(at -10.5 2 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "GND"
+				(at -10.5 -2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "*STU"
+				(at -0.5 2 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "OUT"
+				(at 9.5 2 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "2"
+				(at 17 5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20 2 0)
+				(length 5)
+				(name "VIN"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -20 -2.5 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 2.5 180)
+				(length 5)
+				(name "OUT"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Atmega164p-20AU"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DD"
+			(at 0 61.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_QFP:MQFP-44_10x10mm_P0.8mm"
+			(at 0 -82.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/755/DOC028755102.pdf"
+			(at 0 -86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "44 pin controller with 4 programmable blocks"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "164p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Atmega164p-20AU_1_0"
+			(text "XTAL1"
+				(at -15 23 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+		)
+		(symbol "Atmega164p-20AU_1_1"
+			(polyline
+				(pts
+					(xy -35 53) (xy -25 53)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -35 5) (xy -25 5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -35 0) (xy -25 0)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -35 -5) (xy -25 -5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -35 -10) (xy -25 -10)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -35 -15) (xy -25 -15)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -35 -20) (xy -25 -20)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -35 -25) (xy -25 -25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -35 -40) (xy -25 -40)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -35 -45) (xy -25 -45)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -35 -50) (xy -25 -50)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -35 -55) (xy -25 -55)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -35 -60) (xy -25 -60)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -35 -65) (xy -25 -65)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -35 -70) (xy -25 -70)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -30 23) (xy -25 23) (xy -35 23)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -25 58)
+				(end -5 33)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -25 48) (xy -35 48)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -25 43) (xy -35 43)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -25 38) (xy -35 38)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -25 33)
+				(end -5 10)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -25 28) (xy -35 28)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -25 18) (xy -35 18)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -25 13) (xy -35 13)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -25 -30) (xy -35 -30)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -25 -75) (xy -35 -75)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 30) (xy -9 30)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5 58)
+				(end 5 -80)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5 -35)
+				(end -25 10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5 -80)
+				(end -25 -35)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 58)
+				(end 25 13)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 13)
+				(end 25 -32)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 -32)
+				(end 25 -80)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 53) (xy 35 53)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 8) (xy 35 8)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 48) (xy 25 48)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 43) (xy 25 43)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 38) (xy 25 38)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 33) (xy 25 33)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 28) (xy 25 28)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 23) (xy 25 23)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 18) (xy 25 18)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 3) (xy 25 3)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 -2) (xy 25 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 -7) (xy 25 -7)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 -12) (xy 25 -12)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 -17) (xy 25 -17)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 -22) (xy 25 -22)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 -27) (xy 25 -27)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 -37) (xy 25 -37)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 -42) (xy 25 -42)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 -47) (xy 25 -47)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 35 -52) (xy 25 -52)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "5"
+				(at -30 55.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "38"
+				(at -30 50.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "17"
+				(at -30 45 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "27"
+				(at -30 40 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at -30 30.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "8"
+				(at -30 25.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "7"
+				(at -30 20.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "29"
+				(at -30 15.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "19"
+				(at -30 7.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "20"
+				(at -30 2.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "21"
+				(at -30 -2.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "22"
+				(at -30 -7.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "23"
+				(at -30 -12.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "24"
+				(at -30 -17.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "25"
+				(at -30 -22.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "26"
+				(at -30 -28 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "9"
+				(at -30 -38 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "10"
+				(at -30 -42.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "11"
+				(at -30 -47.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "12"
+				(at -30 -52.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "13"
+				(at -30 -57.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "14"
+				(at -30 -62.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "15"
+				(at -30 -67.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "16"
+				(at -30 -73 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "VCC"
+				(at -15 53 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "VCC"
+				(at -15 48 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "VCC"
+				(at -15 43 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "AVCC"
+				(at -15 38 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "RESET"
+				(at -15 28 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "XTAL2"
+				(at -15 18 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "AREF"
+				(at -15 13 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PC0"
+				(at -15 5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PC1"
+				(at -15 0 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PC2"
+				(at -15 -5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PC3"
+				(at -15 -10 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PC4"
+				(at -15 -15 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PC5"
+				(at -15 -20 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PC6"
+				(at -15 -25 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PC7"
+				(at -15 -30 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PD0/RX"
+				(at -15 -40 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PD1/TX"
+				(at -15 -45 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PD2"
+				(at -15 -50 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PD3"
+				(at -15 -55 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PD4"
+				(at -15 -60 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PD5"
+				(at -15 -65 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PD6"
+				(at -15 -70 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PD7"
+				(at -15 -75 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "CPU\n"
+				(at 0 53 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PA0"
+				(at 15 53 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PA1"
+				(at 15 48 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PA2"
+				(at 15 43 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PA3"
+				(at 15 38 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PA4"
+				(at 15 33 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PA5"
+				(at 15 28 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PA6"
+				(at 15 23 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PA7"
+				(at 15 18 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PB0"
+				(at 15 8 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PB1"
+				(at 15 3 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PB2"
+				(at 15 -2 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PB3"
+				(at 15 -7 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "PB4"
+				(at 15 -12 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "MOSI/PB5"
+				(at 15 -17 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "MISO/PB6"
+				(at 15 -22 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "SCK/PB7"
+				(at 15 -27 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "GND"
+				(at 15 -37 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "GND"
+				(at 15 -42 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "GND"
+				(at 15 -47 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "GND"
+				(at 15 -52 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "37"
+				(at 30 56 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "36"
+				(at 30 50.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "35"
+				(at 30 45.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "34"
+				(at 30 40.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "33"
+				(at 30 35.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "32"
+				(at 30 30.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "31"
+				(at 30 25.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "30"
+				(at 30 20.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "40"
+				(at 30 11 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "41"
+				(at 30 5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "42"
+				(at 30 0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "43"
+				(at 30 -4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "44"
+				(at 30 -9.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "1"
+				(at 30 -14.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 30 -19.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 30 -24.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "6"
+				(at 30 -34.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "18"
+				(at 30 -39.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "28"
+				(at 30 -44.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "39"
+				(at 30 -49.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin power_in line
+				(at -35 53 0)
+				(length 10)
+				(name "VCC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -35 48 0)
+				(length 10)
+				(name "VCC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -35 43 0)
+				(length 10)
+				(name "VCC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -35 38 0)
+				(length 10)
+				(name "AVCC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -35 28 0)
+				(length 10)
+				(name "RST"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -35 23 0)
+				(length 10)
+				(name "XTAL1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -35 18 0)
+				(length 10)
+				(name "XTAL2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 13 0)
+				(length 10)
+				(name "AREF"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 5 0)
+				(length 10)
+				(name "PC0"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 0 0)
+				(length 10)
+				(name "PC1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 -5 0)
+				(length 10)
+				(name "PC2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 -10 0)
+				(length 10)
+				(name "PC3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 -15 0)
+				(length 10)
+				(name "PC4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 -20 0)
+				(length 10)
+				(name "PC5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 -25 0)
+				(length 10)
+				(name "PC6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 -30 0)
+				(length 10)
+				(name "PC7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 -40 0)
+				(length 10)
+				(name "PD0/RX"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 -45 0)
+				(length 10)
+				(name "PD1/TX"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 -50 0)
+				(length 10)
+				(name "PD2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 -55 0)
+				(length 10)
+				(name "PD3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 -60 0)
+				(length 10)
+				(name "PD4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 -65 0)
+				(length 10)
+				(name "PD5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 -70 0)
+				(length 10)
+				(name "PD6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35 -75 0)
+				(length 10)
+				(name "PD7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 53 180)
+				(length 10)
+				(name "PA0"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 48 180)
+				(length 10)
+				(name "PA1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 43 180)
+				(length 10)
+				(name "PA2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 38 180)
+				(length 10)
+				(name "PA3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 33 180)
+				(length 10)
+				(name "PA4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 28 180)
+				(length 10)
+				(name "PA5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 23 180)
+				(length 10)
+				(name "PA6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 18 180)
+				(length 10)
+				(name "PA7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 8 180)
+				(length 10)
+				(name "PB0"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 3 180)
+				(length 10)
+				(name "PB1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 -2 180)
+				(length 10)
+				(name "PB2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 -7 180)
+				(length 10)
+				(name "PB3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 -12 180)
+				(length 10)
+				(name "PB4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 -17 180)
+				(length 10)
+				(name "PB5/MOSI"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 -22 180)
+				(length 10)
+				(name "PB6/MISO"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35 -27 180)
+				(length 10)
+				(name "PB7/SCK"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 35 -37 180)
+				(length 10)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 35 -42 180)
+				(length 10)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 35 -47 180)
+				(length 10)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 35 -52 180)
+				(length 10)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Atmega328PB"
+		(pin_names
+			(offset 5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DD"
+			(at 0 56 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-32_7x7mm_P0.8mm"
+			(at 0 -94.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/917/DOC011917561.pdf"
+			(at 0 -97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Atmega 328PB support packages: TQFP-32 7x7, VQFN-32 5x5"
+			(at 0 -99.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "atmega 328 atmega328 at328 mega328"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "VQFN TQFP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Atmega328PB_1_1"
+			(polyline
+				(pts
+					(xy -20 -42.5) (xy -15 -42.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -47.5) (xy -15 -47.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -15 52.5)
+				(end -5 37.5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 47.5) (xy -20 47.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 42.5) (xy -20 42.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -15 37.5)
+				(end -5 27.5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 32.5) (xy -20 32.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -15 27.5)
+				(end -5 -12.5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 22.5) (xy -20 22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 17.5) (xy -20 17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 12.5) (xy -20 12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 7.5) (xy -20 7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 2.5) (xy -20 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -2.5) (xy -20 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -7.5) (xy -20 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -15 -12.5)
+				(end -5 -37.5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -17.5) (xy -20 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -22.5) (xy -20 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -27.5) (xy -20 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -32.5) (xy -20 -32.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -15 -37.5)
+				(end -5 -52.5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5 52.5)
+				(end 5 -52.5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 52.5)
+				(end 15 7.5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 7.5)
+				(end 15 -52.5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 47.5) (xy 20 47.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 42.5) (xy 20 42.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 37.5) (xy 20 37.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 32.5) (xy 20 32.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 27.5) (xy 20 27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 22.5) (xy 20 22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 17.5) (xy 20 17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 12.5) (xy 20 12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 20 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 -2.5) (xy 20 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 -7.5) (xy 20 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 -12.5) (xy 20 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 -17.5) (xy 20 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 -22.5) (xy 20 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 -27.5) (xy 20 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 -32.5) (xy 20 -32.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "18"
+				(at -18 44.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "20"
+				(at -18 34.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "23"
+				(at -18 24.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "24"
+				(at -18 19.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "25"
+				(at -18 14.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "26"
+				(at -18 9.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "27"
+				(at -18 4.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "28"
+				(at -18 -0.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "29"
+				(at -18 -5.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "3"
+				(at -18 -15.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "6"
+				(at -18 -20.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "19"
+				(at -18 -25.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "22"
+				(at -18 -30.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "21"
+				(at -18 -40.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "5"
+				(at -18 -45.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "4"
+				(at -17.5 49.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PC1"
+				(at -11 17.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PE1"
+				(at -11 -22.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "VCC"
+				(at -10.5 47.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "AVCC"
+				(at -10.5 42.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "AREF"
+				(at -10.5 32.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PC0"
+				(at -10.5 22.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PC2"
+				(at -10.5 12.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PC3"
+				(at -10.5 7.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PC4"
+				(at -10.5 2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PC5"
+				(at -10.5 -2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PC6"
+				(at -10.5 -7.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PE0"
+				(at -10.5 -17.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PE2"
+				(at -10.5 -27.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PE3"
+				(at -10.5 -32.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "GND"
+				(at -10.5 -42.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "GND"
+				(at -10.5 -47.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "CPU"
+				(at -0.5 47.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PD1"
+				(at 9 -2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PB0"
+				(at 9.5 47.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PB1"
+				(at 9.5 42.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PB2"
+				(at 9.5 37.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PB3"
+				(at 9.5 32.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PB4"
+				(at 9.5 27.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PB5"
+				(at 9.5 22.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PB6"
+				(at 9.5 17.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PB7"
+				(at 9.5 12.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PD0"
+				(at 9.5 2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PD2"
+				(at 9.5 -7.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PD3"
+				(at 9.5 -12.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PD4"
+				(at 9.5 -17.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PD5"
+				(at 9.5 -22.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PC6"
+				(at 9.5 -27.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "PD7"
+				(at 9.5 -32.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "12"
+				(at 17 49.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "13"
+				(at 17 44.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "14"
+				(at 17 39.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "15"
+				(at 17 34.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "16"
+				(at 17 29.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "17"
+				(at 17 24.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "7"
+				(at 17 19.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "8"
+				(at 17 14.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "30"
+				(at 17 4.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "31"
+				(at 17 -0.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "32"
+				(at 17 -5.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "1"
+				(at 17 -10.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "2"
+				(at 17 -15.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "9"
+				(at 17 -20.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "10"
+				(at 17 -25.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "11"
+				(at 17 -30.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20 47.5 0)
+				(length 5)
+				(name "VCC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20 42.5 0)
+				(length 5)
+				(name "AVCC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20 32.5 0)
+				(length 5)
+				(name "AREF"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20 22.5 0)
+				(length 5)
+				(name "PC0"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20 17.5 0)
+				(length 5)
+				(name "PC1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20 12.5 0)
+				(length 5)
+				(name "PC2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20 7.5 0)
+				(length 5)
+				(name "PC3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20 2.5 0)
+				(length 5)
+				(name "PC4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20 -2.5 0)
+				(length 5)
+				(name "PC5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20 -7.5 0)
+				(length 5)
+				(name "PC6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20 -17.5 0)
+				(length 5)
+				(name "PE0"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20 -22.5 0)
+				(length 5)
+				(name "PE1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20 -27.5 0)
+				(length 5)
+				(name "PE2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20 -32.5 0)
+				(length 5)
+				(name "PE3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -20 -42.5 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -20 -47.5 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 47.5 180)
+				(length 5)
+				(name "PB0"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 42.5 180)
+				(length 5)
+				(name "PB1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 37.5 180)
+				(length 5)
+				(name "PB2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 32.5 180)
+				(length 5)
+				(name "PB3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 27.5 180)
+				(length 5)
+				(name "PB4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 22.5 180)
+				(length 5)
+				(name "PB5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 17.5 180)
+				(length 5)
+				(name "PB6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 12.5 180)
+				(length 5)
+				(name "PB7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 2.5 180)
+				(length 5)
+				(name "PD0"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 -2.5 180)
+				(length 5)
+				(name "PD1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 -7.5 180)
+				(length 5)
+				(name "PD2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 -12.5 180)
+				(length 5)
+				(name "PD3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 -17.5 180)
+				(length 5)
+				(name "PD4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 -22.5 180)
+				(length 5)
+				(name "PD5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 -27.5 180)
+				(length 5)
+				(name "PD6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 -32.5 180)
+				(length 5)
+				(name "PD7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DS1302"
+		(pin_names
+			(offset 5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DD"
+			(at 0 18.5 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0 -17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/58478/DALLAS/DS1302.html"
+			(at 0 -19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "DS1302, time, timer"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Package_DIP:DIP-8_W7.62mm Package_SO:SOIC-8_3.9x4.9mm_P1.27mm Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DS1302_0_1"
+			(polyline
+				(pts
+					(xy 7.25 2) (xy 13.75 2)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DS1302_1_1"
+			(rectangle
+				(start -15 15)
+				(end -5 0)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 10) (xy -20 10)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 5) (xy -20 5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -15 0)
+				(end -5 -15)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -5) (xy -20 -5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -10) (xy -20 -10)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5 15)
+				(end 5 -15)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1 10.5) (xy -1 8.5) (xy 1 9.5) (xy -1 10.5)
+				)
+				(stroke
+					(width 0.3)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 15)
+				(end 15 -5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 -5)
+				(end 15 -15)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 10) (xy 15 10)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 5) (xy 15 5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 0) (xy 15 0)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -10) (xy 15 -10)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "8"
+				(at -18 12.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "1"
+				(at -18 7.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "2"
+				(at -18 -2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "3"
+				(at -18 -7.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "VCC1"
+				(at -10.5 9.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "VCC2"
+				(at -10.5 5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "X1"
+				(at -10.5 -5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "X2"
+				(at -10.5 -10 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "SCLK"
+				(at 9.5 5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "RST"
+				(at 9.5 0 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "GND"
+				(at 9.5 -10 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "I/O"
+				(at 10 10 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "6"
+				(at 17.5 12.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "7"
+				(at 17.5 7.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "5"
+				(at 17.5 2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "4"
+				(at 17.5 -7.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20 10 0)
+				(length 5)
+				(name "VCC1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20 5 0)
+				(length 5)
+				(name "VCC2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20 -5 0)
+				(length 5)
+				(name "X1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20 -10 0)
+				(length 5)
+				(name "X2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20 10 180)
+				(length 5)
+				(name "I/O"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20 5 180)
+				(length 5)
+				(name "SCLK"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 0 180)
+				(length 5)
+				(name "~RST"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 20 -10 180)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "FT232RL"
+		(pin_names
+			(offset 0.0001)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DD"
+			(at 0 48 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
+			(at 0 -49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/144591/FTDI/FT232RL.html"
+			(at 0 -46.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB to UART"
+			(at 0 -51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "FT232, 232, USB, UART"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FT232RL_1_1"
+			(rectangle
+				(start -20 45)
+				(end -5 30)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 40) (xy -25 40)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 35) (xy -25 35)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 30)
+				(end -5 15)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 25) (xy -25 25)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 20) (xy -25 20)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 15)
+				(end -5 -15)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 10) (xy -25 10)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 5) (xy -25 5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 0) (xy -25 0)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -5) (xy -25 -5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -10) (xy -25 -10)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -15)
+				(end -5 -45)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -20) (xy -25 -20)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -25) (xy -25 -25)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -30) (xy -25 -30)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -35) (xy -25 -35)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -40) (xy -25 -40)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5 45)
+				(end 5 -45)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 45)
+				(end 20 0)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 0)
+				(end 20 -30)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 -30)
+				(end 20 -45)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 40) (xy 25 40)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 35) (xy 25 35)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 30) (xy 25 30)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 25) (xy 25 25)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 20) (xy 25 20)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 15) (xy 25 15)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 10) (xy 25 10)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 5) (xy 25 5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -5) (xy 25 -5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -10) (xy 25 -10)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -15) (xy 25 -15)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -20) (xy 25 -20)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -25) (xy 25 -25)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -35) (xy 25 -35)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "4"
+				(at -23 42 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "20"
+				(at -23 37 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "16"
+				(at -23 27 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "15"
+				(at -23 22 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "8"
+				(at -23 12 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "19"
+				(at -23 7 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "24"
+				(at -23 2 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "27"
+				(at -23 -3 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "28"
+				(at -23 -8 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "26"
+				(at -23 -18 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "25"
+				(at -23 -22.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "7"
+				(at -23 -28 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "18"
+				(at -23 -32.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "21"
+				(at -23 -38 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "VCCIO"
+				(at -13 40 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "VCC"
+				(at -13 35.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "USBDM"
+				(at -13 25 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "USBDP"
+				(at -13 20.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "NC"
+				(at -13 10 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "RESET"
+				(at -13 5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "NC"
+				(at -13 0 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "OSCI"
+				(at -13 -4.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "OSCO"
+				(at -13 -9.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "TEST"
+				(at -13 -19.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "AGND"
+				(at -13 -25 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "GND"
+				(at -13 -30 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "GND"
+				(at -13 -35 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "GND"
+				(at -13 -39.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "TTL"
+				(at 0 40 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "CBUS0"
+				(at 12 -4.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "CBUS1"
+				(at 12 -9.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "CBUS2"
+				(at 12 -14.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "CBUS3"
+				(at 12 -20 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "CBUS4"
+				(at 12 -25 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "3V3OUT"
+				(at 12 -35 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "TXD"
+				(at 13 40 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "RXD"
+				(at 13 35.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "RTS"
+				(at 13 30 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "CTS"
+				(at 13 25 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "DTR"
+				(at 13 20.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "DSR"
+				(at 13 15.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "DCD"
+				(at 13 10 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "RI"
+				(at 13 5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "1"
+				(at 23 42 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "5"
+				(at 23 37 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "3"
+				(at 23 32 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "11"
+				(at 23 27 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "2"
+				(at 23 22 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "9"
+				(at 23 17 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "10"
+				(at 23 12 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "6"
+				(at 23 7 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "23"
+				(at 23 -3 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "22"
+				(at 23 -8 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "13"
+				(at 23 -13 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "14"
+				(at 23 -18 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "12"
+				(at 23 -23 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "17"
+				(at 23 -33 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25 40 0)
+				(length 5)
+				(name "VCCIO"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25 35 0)
+				(length 5)
+				(name "VCC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25 25 0)
+				(length 5)
+				(name "USB-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25 20 0)
+				(length 5)
+				(name "USB+"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -25 10 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25 5 0)
+				(length 5)
+				(name "RST"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -25 0 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25 -5 0)
+				(length 5)
+				(name "OSCI"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25 -10 0)
+				(length 5)
+				(name "OSCO"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -25 -20 0)
+				(length 5)
+				(name "TEST"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -25 -25 0)
+				(length 5)
+				(name "AGND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -25 -30 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -25 -35 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -25 -40 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25 40 180)
+				(length 5)
+				(name "TXD"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25 35 180)
+				(length 5)
+				(name "RXD"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25 30 180)
+				(length 5)
+				(name "RTS"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25 25 180)
+				(length 5)
+				(name "CTS"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25 20 180)
+				(length 5)
+				(name "DTR"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25 15 180)
+				(length 5)
+				(name "DSR"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25 10 180)
+				(length 5)
+				(name "DCD"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25 5 180)
+				(length 5)
+				(name "RI"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25 -5 180)
+				(length 5)
+				(name "CBUS0"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25 -10 180)
+				(length 5)
+				(name "CBUS1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25 -15 180)
+				(length 5)
+				(name "CBUS2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25 -20 180)
+				(length 5)
+				(name "CBUS3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25 -25 180)
+				(length 5)
+				(name "CBUS4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25 -35 180)
+				(length 5)
+				(name "3V3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "LM393DR"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DA"
+			(at 0 13 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0 -7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/250/DOC000250780.pdf"
+			(at 0 -9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "digital electric comporator"
+			(at 0 -10.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "./"
+			(at 0 -12.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "lm393, 393, comporator, OA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Package_DIP:DIP-8_W7.62mm Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM393DR_0_0"
+			(pin power_in line
+				(at -20 7.5 0)
+				(length 5)
+				(name "VCC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 20 -2.5 180)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LM393DR_1_1"
+			(rectangle
+				(start -15 10)
+				(end -5 -5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 7.5) (xy -20 7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 2.5) (xy -20 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -2.5) (xy -20 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5 10)
+				(end 5 -5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1 8) (xy -1 6) (xy 1 7) (xy -1 8)
+				)
+				(stroke
+					(width 0.3)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 10)
+				(end 15 -5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 7.5) (xy 15 7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "8"
+				(at -18 9.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "3"
+				(at -18 4.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "2"
+				(at -18 -0.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "VCC"
+				(at -10.5 7 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "IN+"
+				(at -10 2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "IN-"
+				(at -10 -2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "OUT"
+				(at 9.5 7.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "GND"
+				(at 9.5 -2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "1"
+				(at 17 9.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "4"
+				(at 17 -0.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(pin input line
+				(at -20 2.5 0)
+				(length 5)
+				(name "1IN+"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -20 -2.5 0)
+				(length 5)
+				(name "1IN-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 20 7.5 180)
+				(length 5)
+				(name "1OUT"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LM393DR_2_1"
+			(rectangle
+				(start -15 10)
+				(end -5 -5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 7.5) (xy -20 7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 2.5) (xy -20 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -2.5) (xy -20 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5 10)
+				(end 5 -5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1 8) (xy -1 6) (xy 1 7) (xy -1 8)
+				)
+				(stroke
+					(width 0.3)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 10)
+				(end 15 -5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 7.5) (xy 15 7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "8"
+				(at -18 9.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "5"
+				(at -18 4.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "6"
+				(at -18 -0.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "VCC"
+				(at -10.5 7 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "IN+"
+				(at -10 2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "IN-"
+				(at -10 -2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "OUT"
+				(at 9.5 7.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "GND"
+				(at 9.5 -2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "7"
+				(at 17 9.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "4"
+				(at 17 -0.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(pin input line
+				(at -20 2.5 0)
+				(length 5)
+				(name "2IN+"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -20 -2.5 0)
+				(length 5)
+				(name "2IN-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 20 7.5 180)
+				(length 5)
+				(name "2OUT"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MAX4466"
+		(pin_names
+			(offset 5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DA"
+			(at 0 8.382 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 0 -11.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/MAX4465-MAX4469.pdf"
+			(at 0 -13.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "max4466 microphone mic mc"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MAX4466_1_1"
+			(rectangle
+				(start -15 5)
+				(end -5 -10)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 2.5) (xy -20 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -2.5) (xy -20 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -7.5) (xy -20 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5 5)
+				(end 5 -10)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1 3.5) (xy -1 1.5) (xy 1 2.5) (xy -1 3.5)
+				)
+				(stroke
+					(width 0.3)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 5)
+				(end 15 -10)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 2.5) (xy 15 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at -18 5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "3"
+				(at -18 0 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "5"
+				(at -18 -5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "VCC"
+				(at -10 -7.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "IN+"
+				(at -9.5 2 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "IN-"
+				(at -9.5 -2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "OUT"
+				(at 9.5 2 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "GND"
+				(at 9.5 -2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "4"
+				(at 17.5 5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "2"
+				(at 17.5 0 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(pin input line
+				(at -20 2.5 0)
+				(length 5)
+				(name "IN+"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20 -2.5 0)
+				(length 5)
+				(name "IN-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20 -7.5 0)
+				(length 5)
+				(name "VCC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 20 2.5 180)
+				(length 5)
+				(name "OUT"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 20 -2.5 180)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XC6206"
+		(pin_names
+			(offset 2)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DA"
+			(at 0 7.5 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 0 -6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/848/DOC018848972.pdf"
+			(at 0 -9.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ldo from 1.8 - 8.0 V to 3.3 V stability"
+			(at 0 -7.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "ldo 3.3V XC6206"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XC6206_1_1"
+			(rectangle
+				(start -15 5)
+				(end -5 -5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 2) (xy -20 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15 -2.5) (xy -20 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5 5)
+				(end 5 -5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1 3.5) (xy -1 1.5) (xy 1 2.5) (xy -1 3.5)
+				)
+				(stroke
+					(width 0.3)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 5)
+				(end 15 -5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 2.5) (xy 15 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "3"
+				(at -17.5 4 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "1"
+				(at -17.5 -0.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "VIN"
+				(at -10.5 2 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "GND"
+				(at -10.5 -2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "OUT"
+				(at 9.5 2.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "2"
+				(at 17 4.5 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20 2 0)
+				(length 5)
+				(name "VIN"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -20 -2.5 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 20 2.5 180)
+				(length 5)
+				(name "OUT"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XL6009"
+		(pin_names
+			(offset 0.0001)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DA"
+			(at 0 10 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "user_footprint:TO263-5L"
+			(at 0 -14.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.compacttool.ru/downloads/XL6009_XLSEMI_Datasheet.pdf"
+			(at 0 -12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The XL6009 regulator is a wide input range, current mode, DC/DC converter"
+			(at 0 -16.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XL XL6009 DC/DC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XL6009_1_1"
+			(polyline
+				(pts
+					(xy -20 3) (xy -15 3)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -2) (xy -15 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -15 6)
+				(end -5 -9)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5 6)
+				(end 5 -9)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5 6)
+				(end 15 -9)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 3) (xy 15 3)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -2) (xy 15 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -7) (xy 15 -7)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "4"
+				(at -18 5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at -18 0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Vin"
+				(at -10.5 3 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "EN"
+				(at -10.5 -2 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "*STU"
+				(at -0.5 3 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(italic yes)
+					)
+				)
+			)
+			(text "SW"
+				(at 9.5 3.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "FB"
+				(at 9.5 -1.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "GND"
+				(at 9.5 -6.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 17.5 5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at 17.5 0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "1"
+				(at 17.5 -4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at -20 -2 0)
+				(length 5)
+				(name "EN"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -19.96 3 0)
+				(length 5)
+				(name "Vin"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 20 3 180)
+				(length 5)
+				(name "SW"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 -2 180)
+				(length 5)
+				(name "FB"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 20 -7 180)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "m27c256"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DS"
+			(at 0 50 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket_LongPads"
+			(at 0 -52.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/1695222.pdf"
+			(at 0 -55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "UV/electrical/not erasable memory chip"
+			(at 0 -57.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "m27 eeprom"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "m27c256_1_1"
+			(polyline
+				(pts
+					(xy -30 40) (xy -20 40)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(rectangle
+				(start -20 45)
+				(end -10 30)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 35) (xy -30 35)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 30)
+				(end -10 -50)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 25) (xy -30 25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 20) (xy -30 20)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 15) (xy -30 15)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 10) (xy -20 10) (xy -30 10)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 5) (xy -30 5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 0) (xy -30 0)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -5) (xy -30 -5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -10) (xy -30 -10)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -15) (xy -30 -15)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -20) (xy -30 -20)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -25) (xy -30 -25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -30) (xy -30 -30)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -35) (xy -30 -35)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -40) (xy -30 -40)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 -45) (xy -30 -45)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10 45)
+				(end 10 -50)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10 45)
+				(end 20 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10 0)
+				(end 20 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10 -15)
+				(end 20 -50)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 40) (xy 20 40)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 35) (xy 20 35)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 30) (xy 20 30)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 25) (xy 20 25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 20) (xy 20 20)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 15) (xy 20 15)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 10) (xy 20 10)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 5) (xy 20 5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -5) (xy 20 -5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -10) (xy 20 -10)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -20) (xy 20 -20)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "28"
+				(at -25 42.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "1"
+				(at -25 37.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "10"
+				(at -25 27.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "9"
+				(at -25 22.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "8"
+				(at -25 17.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "7"
+				(at -25 12.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "6"
+				(at -25 7.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at -25 2.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at -25 -2.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at -25 -7.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "25"
+				(at -25 -12.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "24"
+				(at -25 -17.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "21"
+				(at -25 -22.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "23"
+				(at -25 -27.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at -25 -32.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "26"
+				(at -25 -37.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "27"
+				(at -25 -42.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "VCC"
+				(at -15 40 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "VPP"
+				(at -15 35 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A0"
+				(at -15 25 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A1"
+				(at -15 20 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A2"
+				(at -15 15 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A3"
+				(at -15 10 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A4"
+				(at -15 5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A5"
+				(at -15 0 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A6"
+				(at -15 -5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A7"
+				(at -15 -10 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A8"
+				(at -15 -15 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A9"
+				(at -15 -20 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A10"
+				(at -15 -25 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A11"
+				(at -15 -30 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A12"
+				(at -15 -35 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A13"
+				(at -15 -40 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "A14"
+				(at -15 -45 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "UVPROM"
+				(at 0 40 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Q0"
+				(at 15 40 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Q1"
+				(at 15 35 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Q2"
+				(at 15 30 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Q3"
+				(at 15 25 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Q4"
+				(at 15 20 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Q5"
+				(at 15 15 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Q6"
+				(at 15 10 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Q7"
+				(at 15 5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "OE"
+				(at 15 -5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "CE"
+				(at 15 -10 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "GND"
+				(at 15 -20 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "11"
+				(at 25 42.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "12"
+				(at 25 37.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "13"
+				(at 25 32.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "15"
+				(at 25 27.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "16"
+				(at 25 22.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "17"
+				(at 25 17.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "18"
+				(at 25 12.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "19"
+				(at 25 7.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "20"
+				(at 25 -2.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "22"
+				(at 25 -7.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "14"
+				(at 25 -17.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin input line
+				(at -30 40 0)
+				(length 10)
+				(name "VCC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 35 0)
+				(length 10)
+				(name "VPP"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 25 0)
+				(length 10)
+				(name "A0"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 20 0)
+				(length 10)
+				(name "A1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 15 0)
+				(length 10)
+				(name "A2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 10 0)
+				(length 10)
+				(name "A3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 5 0)
+				(length 10)
+				(name "A4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 0 0)
+				(length 10)
+				(name "A5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 -5 0)
+				(length 10)
+				(name "A6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 -10 0)
+				(length 10)
+				(name "A7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 -15 0)
+				(length 10)
+				(name "A8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 -20 0)
+				(length 10)
+				(name "A9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 -25 0)
+				(length 10)
+				(name "A10"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 -30 0)
+				(length 10)
+				(name "A11"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 -35 0)
+				(length 10)
+				(name "A12"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 -40 0)
+				(length 10)
+				(name "A13"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30 -45 0)
+				(length 10)
+				(name "A14"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30 40 180)
+				(length 10)
+				(name "Q0"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30 35 180)
+				(length 10)
+				(name "Q1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30 30 180)
+				(length 10)
+				(name "Q2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30 25 180)
+				(length 10)
+				(name "Q3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30 20 180)
+				(length 10)
+				(name "Q4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30 15 180)
+				(length 10)
+				(name "Q5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30 10 180)
+				(length 10)
+				(name "Q6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30 5 180)
+				(length 10)
+				(name "Q7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30 -5 180)
+				(length 10)
+				(name "OE"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30 -10 180)
+				(length 10)
+				(name "CE"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30 -20 180)
+				(length 10)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
