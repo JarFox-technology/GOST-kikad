@@ -1,0 +1,10650 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "Contactor"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "X"
+			(at 0 4 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 -4 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Contactor Контактор Клемма Вывод"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Contactor_0_1"
+			(polyline
+				(pts
+					(xy -1.25 -1.25) (xy 1.25 1.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1 0) (xy -3.5 0)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.75)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Contactor_1_1"
+			(pin passive line
+				(at -3.5 0 0)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "USB mini B"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XS"
+			(at 0 19.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal"
+			(at 0 -17.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/028/DOC001028880.pdf"
+			(at 0 -19.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "USB socket mini B"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "USB mini B_1_1"
+			(rectangle
+				(start -21 15)
+				(end -9 10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -21 10)
+				(end -9 5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -21 5)
+				(end -9 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -21 0)
+				(end -9 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -21 -5)
+				(end -9 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -21 -10)
+				(end -9 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7 10.5) (xy -5 12.5) (xy -7 14.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7 5.5) (xy -5 7.5) (xy -7 9.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7 0.5) (xy -5 2.5) (xy -7 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7 -4.5) (xy -5 -2.5) (xy -7 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7 -9.5) (xy -5 -7.5) (xy -7 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7 -14.5) (xy -5 -12.5) (xy -7 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5 7.5) (xy 8 7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5 2.5) (xy 8 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5 -2.5) (xy 8 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5 -7.5) (xy 8 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5 -12.5) (xy 8 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 12.5) (xy 0 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.5 12.5) (xy 1.5 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 12.5) (xy -5 12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "+5V"
+				(at -15.5 12.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "ID"
+				(at -15.5 -2.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "GND"
+				(at -15.5 -7.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Shield"
+				(at -15.5 -12.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "D-"
+				(at -15 7.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "D+"
+				(at -15 2.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "1"
+				(at -3 15 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at -3 10 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at -3 5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at -3 0 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at -3 -5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "6"
+				(at -3 -10 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8 12.5 180)
+				(length 5)
+				(name "+5V"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8 7.5 180)
+				(length 5)
+				(name "D-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8 2.5 180)
+				(length 5)
+				(name "D+"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8 -2.5 180)
+				(length 5)
+				(name "ID"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8 -7.5 180)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8 -12.5 180)
+				(length 5)
+				(name "Shield"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XP 10 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XP"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XP 10 pin connectors штыри 10 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinHeader_1.00mm:PinHeader_1x10_P1.00mm_Vertical Connector_PinHeader_1.00mm:PinHeader_1x10_P1.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_1.00mm:PinHeader_1x10_P1.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Horizontal Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XP 10 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -10)
+				(end -2 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -15)
+				(end -2 -20)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -20)
+				(end -2 -25)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -25)
+				(end -2 -30)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -30)
+				(end -2 -35)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -35)
+				(end -2 -40)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -40)
+				(end -2 -45)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -14.5) (xy 2 -12.5) (xy 0 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -19.5) (xy 2 -17.5) (xy 0 -15.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -24.5) (xy 2 -22.5) (xy 0 -20.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -29.5) (xy 2 -27.5) (xy 0 -25.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -34.5) (xy 2 -32.5) (xy 0 -30.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -39.5) (xy 2 -37.5) (xy 0 -35.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -44.5) (xy 2 -42.5) (xy 0 -40.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -17.5) (xy 15 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -22.5) (xy 15 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -27.5) (xy 15 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -32.5) (xy 15 -32.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -37.5) (xy 15 -37.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -42.5) (xy 15 -42.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -42.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -42.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "10"
+				(at 4 -40.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at 4.5 -10.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at 4.5 -15.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "6"
+				(at 4.5 -20.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "7"
+				(at 4.5 -25.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "8"
+				(at 4.5 -30.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "9"
+				(at 4.5 -35.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -12.5 180)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -17.5 180)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -22.5 180)
+				(length 5)
+				(name "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -27.5 180)
+				(length 5)
+				(name "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -32.5 180)
+				(length 5)
+				(name "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -37.5 180)
+				(length 5)
+				(name "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -42.5 180)
+				(length 5)
+				(name "10"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XP 2 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XP"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XP 2 pin connectors штыри 2 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Horizontal Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XP 2 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XP 3 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XP"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XP 3 pin connectors штыри 3 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Horizontal Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XP 3 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 -2.5) (xy 7 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 -2.5) (xy 8.5 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XP 4 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XP"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XP 4 pin connectors штыри 4 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Horizontal Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XP 4 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -10)
+				(end -2 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -14.5) (xy 2 -12.5) (xy 0 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at 4.5 -10.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -12.5 180)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XP 5 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XP"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XP 5 pin connectors штыри 5 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Horizontal Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XP 5 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -10)
+				(end -2 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -15)
+				(end -2 -20)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -14.5) (xy 2 -12.5) (xy 0 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -19.5) (xy 2 -17.5) (xy 0 -15.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -17.5) (xy 15 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at 4.5 -10.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at 4.5 -15.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -12.5 180)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -17.5 180)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XP 6 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XP"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XP 6 pin connectors штыри 6 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Horizontal Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XP 6 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -10)
+				(end -2 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -15)
+				(end -2 -20)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -20)
+				(end -2 -25)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -14.5) (xy 2 -12.5) (xy 0 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -19.5) (xy 2 -17.5) (xy 0 -15.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -24.5) (xy 2 -22.5) (xy 0 -20.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -17.5) (xy 15 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -22.5) (xy 15 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at 4.5 -10.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at 4.5 -15.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "6"
+				(at 4.5 -20.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -12.5 180)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -17.5 180)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -22.5 180)
+				(length 5)
+				(name "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XP 7 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XP"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XP 7 pin connectors штыри 7 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.00mm:PinHeader_1x07_P2.00mm_Horizontal Connector_PinHeader_2.00mm:PinHeader_1x07_P2.00mm_Vertical Connector_PinHeader_2.00mm:PinHeader_1x07_P2.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.00mm:PinHeader_1x07_P2.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XP 7 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -10)
+				(end -2 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -15)
+				(end -2 -20)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -20)
+				(end -2 -25)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -25)
+				(end -2 -30)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -14.5) (xy 2 -12.5) (xy 0 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -19.5) (xy 2 -17.5) (xy 0 -15.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -24.5) (xy 2 -22.5) (xy 0 -20.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -29.5) (xy 2 -27.5) (xy 0 -25.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -17.5) (xy 15 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -22.5) (xy 15 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -27.5) (xy 15 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at 4.5 -10.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at 4.5 -15.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "6"
+				(at 4.5 -20.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "7"
+				(at 4.5 -25.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -12.5 180)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -17.5 180)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -22.5 180)
+				(length 5)
+				(name "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -27.5 180)
+				(length 5)
+				(name "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XP 8 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XP"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XP 8 pin connectors штыри 8 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.00mm:PinHeader_1x08_P2.00mm_Horizontal Connector_PinHeader_2.00mm:PinHeader_1x08_P2.00mm_Vertical Connector_PinHeader_2.00mm:PinHeader_1x08_P2.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.00mm:PinHeader_1x08_P2.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XP 8 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -10)
+				(end -2 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -15)
+				(end -2 -20)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -20)
+				(end -2 -25)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -25)
+				(end -2 -30)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -30)
+				(end -2 -35)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -14.5) (xy 2 -12.5) (xy 0 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -19.5) (xy 2 -17.5) (xy 0 -15.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -24.5) (xy 2 -22.5) (xy 0 -20.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -29.5) (xy 2 -27.5) (xy 0 -25.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -34.5) (xy 2 -32.5) (xy 0 -30.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -17.5) (xy 15 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -22.5) (xy 15 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -27.5) (xy 15 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -32.5) (xy 15 -32.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 -27.5) (xy 7 -32.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 -27.5) (xy 8.5 -32.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at 4.5 -10.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at 4.5 -15.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "6"
+				(at 4.5 -20.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "7"
+				(at 4.5 -25.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "8"
+				(at 4.5 -30.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -12.5 180)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -17.5 180)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -22.5 180)
+				(length 5)
+				(name "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -27.5 180)
+				(length 5)
+				(name "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -32.5 180)
+				(length 5)
+				(name "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XP 9 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XP"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XP 9 pin connectors штыри 9 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.00mm:PinHeader_1x09_P2.00mm_Horizontal Connector_PinHeader_2.00mm:PinHeader_1x09_P2.00mm_Vertical Connector_PinHeader_2.00mm:PinHeader_1x09_P2.00mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.00mm:PinHeader_1x09_P2.00mm_Vertical_SMD_Pin1Right Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Horizontal Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical_SMD_Pin1Left Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XP 9 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -10)
+				(end -2 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -15)
+				(end -2 -20)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -20)
+				(end -2 -25)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -25)
+				(end -2 -30)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -30)
+				(end -2 -35)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -35)
+				(end -2 -40)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -14.5) (xy 2 -12.5) (xy 0 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -19.5) (xy 2 -17.5) (xy 0 -15.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -24.5) (xy 2 -22.5) (xy 0 -20.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -29.5) (xy 2 -27.5) (xy 0 -25.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -34.5) (xy 2 -32.5) (xy 0 -30.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -39.5) (xy 2 -37.5) (xy 0 -35.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -17.5) (xy 15 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -22.5) (xy 15 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -27.5) (xy 15 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -32.5) (xy 15 -32.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -37.5) (xy 15 -37.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -37.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -37.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at 4.5 -10.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at 4.5 -15.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "6"
+				(at 4.5 -20.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "7"
+				(at 4.5 -25.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "8"
+				(at 4.5 -30.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "9"
+				(at 4.5 -35.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -12.5 180)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -17.5 180)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -22.5 180)
+				(length 5)
+				(name "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -27.5 180)
+				(length 5)
+				(name "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -32.5 180)
+				(length 5)
+				(name "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -37.5 180)
+				(length 5)
+				(name "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XS 10 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XS"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XS 10 pin connectors гнездо 10 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinSocket_1.00mm:PinSocket_1x10_P1.00mm_Vertical Connector_PinSocket_1.00mm:PinSocket_1x10_P1.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_1.00mm:PinSocket_1x10_P1.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.00mm:PinSocket_1x10_P2.00mm_Horizontal Connector_PinSocket_2.00mm:PinSocket_1x10_P2.00mm_Vertical Connector_PinSocket_2.00mm:PinSocket_1x10_P2.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.00mm:PinSocket_1x10_P2.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XS 10 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -10)
+				(end -2 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -15)
+				(end -2 -20)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -20)
+				(end -2 -25)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -25)
+				(end -2 -30)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -30)
+				(end -2 -35)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -35)
+				(end -2 -40)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -40)
+				(end -2 -45)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -14.5) (xy 2 -12.5) (xy 0 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -19.5) (xy 2 -17.5) (xy 0 -15.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -24.5) (xy 2 -22.5) (xy 0 -20.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -29.5) (xy 2 -27.5) (xy 0 -25.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -34.5) (xy 2 -32.5) (xy 0 -30.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -39.5) (xy 2 -37.5) (xy 0 -35.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -44.5) (xy 2 -42.5) (xy 0 -40.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -17.5) (xy 15 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -22.5) (xy 15 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -27.5) (xy 15 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -32.5) (xy 15 -32.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -37.5) (xy 15 -37.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -42.5) (xy 15 -42.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -42.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -42.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "10"
+				(at 4 -40.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at 4.5 -10.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at 4.5 -15.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "6"
+				(at 4.5 -20.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "7"
+				(at 4.5 -25.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "8"
+				(at 4.5 -30.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "9"
+				(at 4.5 -35.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -12.5 180)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -17.5 180)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -22.5 180)
+				(length 5)
+				(name "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -27.5 180)
+				(length 5)
+				(name "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -32.5 180)
+				(length 5)
+				(name "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -37.5 180)
+				(length 5)
+				(name "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -42.5 180)
+				(length 5)
+				(name "10"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XS 2 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XS"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XS 2 pin connectors гнездо 2 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Vertical Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XS 2 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XS 3 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XS"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XS 3 pin connectors гнездо 3 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinSocket_1.00mm:PinSocket_1x03_P1.00mm_Vertical Connector_PinSocket_1.00mm:PinSocket_1x03_P1.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_1.00mm:PinSocket_1x03_P1.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Horizontal Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XS 3 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XS 4 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XS"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XS 4 pin connectors гнездо 4 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Horizontal Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XS 4 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -10)
+				(end -2 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -14.5) (xy 2 -12.5) (xy 0 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 -7.5) (xy 7 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 -7.5) (xy 8.5 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at 4.5 -10.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -12.5 180)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XS 5 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XS"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XS 5 pin connectors гнездо 5 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.00mm:PinSocket_1x05_P2.00mm_Horizontal Connector_PinSocket_2.00mm:PinSocket_1x05_P2.00mm_Vertical Connector_PinSocket_2.00mm:PinSocket_1x05_P2.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.00mm:PinSocket_1x05_P2.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XS 5 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -10)
+				(end -2 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -15)
+				(end -2 -20)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -14.5) (xy 2 -12.5) (xy 0 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -19.5) (xy 2 -17.5) (xy 0 -15.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -17.5) (xy 15 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at 4.5 -10.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at 4.5 -15.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -12.5 180)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -17.5 180)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XS 6 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XS"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XS 6 pin connectors гнездо 6 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Horizontal Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XS 6 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -10)
+				(end -2 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -15)
+				(end -2 -20)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -20)
+				(end -2 -25)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -14.5) (xy 2 -12.5) (xy 0 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -19.5) (xy 2 -17.5) (xy 0 -15.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -24.5) (xy 2 -22.5) (xy 0 -20.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -17.5) (xy 15 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -22.5) (xy 15 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at 4.5 -10.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at 4.5 -15.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "6"
+				(at 4.5 -20.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -12.5 180)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -17.5 180)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -22.5 180)
+				(length 5)
+				(name "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XS 7 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XS"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XS 7 pin connectors гнездо 7 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinSocket_1.00mm:PinSocket_1x07_P1.00mm_Vertical Connector_PinSocket_1.00mm:PinSocket_1x07_P1.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_1.00mm:PinSocket_1x07_P1.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.00mm:PinSocket_1x07_P2.00mm_Horizontal Connector_PinSocket_2.00mm:PinSocket_1x07_P2.00mm_Vertical Connector_PinSocket_2.00mm:PinSocket_1x07_P2.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.00mm:PinSocket_1x07_P2.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Horizontal Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XS 7 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -10)
+				(end -2 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -15)
+				(end -2 -20)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -20)
+				(end -2 -25)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -25)
+				(end -2 -30)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -14.5) (xy 2 -12.5) (xy 0 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -19.5) (xy 2 -17.5) (xy 0 -15.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -24.5) (xy 2 -22.5) (xy 0 -20.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -29.5) (xy 2 -27.5) (xy 0 -25.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -17.5) (xy 15 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -22.5) (xy 15 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -27.5) (xy 15 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at 4.5 -10.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at 4.5 -15.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "6"
+				(at 4.5 -20.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "7"
+				(at 4.5 -25.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -12.5 180)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -17.5 180)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -22.5 180)
+				(length 5)
+				(name "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -27.5 180)
+				(length 5)
+				(name "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XS 8 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XS"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XS 8 pin connectors гнездо 8 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.00mm:PinSocket_1x08_P2.00mm_Horizontal Connector_PinSocket_2.00mm:PinSocket_1x08_P2.00mm_Vertical Connector_PinSocket_2.00mm:PinSocket_1x08_P2.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.00mm:PinSocket_1x08_P2.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Horizontal Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XS 8 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -10)
+				(end -2 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -15)
+				(end -2 -20)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -20)
+				(end -2 -25)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -25)
+				(end -2 -30)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -30)
+				(end -2 -35)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -14.5) (xy 2 -12.5) (xy 0 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -19.5) (xy 2 -17.5) (xy 0 -15.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -24.5) (xy 2 -22.5) (xy 0 -20.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -29.5) (xy 2 -27.5) (xy 0 -25.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -34.5) (xy 2 -32.5) (xy 0 -30.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -17.5) (xy 15 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -22.5) (xy 15 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -27.5) (xy 15 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -32.5) (xy 15 -32.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -32.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -32.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at 4.5 -10.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at 4.5 -15.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "6"
+				(at 4.5 -20.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "7"
+				(at 4.5 -25.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "8"
+				(at 4.5 -30.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -12.5 180)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -17.5 180)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -22.5 180)
+				(length 5)
+				(name "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -27.5 180)
+				(length 5)
+				(name "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -32.5 180)
+				(length 5)
+				(name "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XS 9 connectors"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XS"
+			(at 0 9.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 3.5 3.5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "XS 9 pin connectors гнездо 9 контакта"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinSocket_1.00mm:PinSocket_1x09_P1.00mm_Vertical Connector_PinSocket_1.00mm:PinSocket_1x09_P1.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_1.00mm:PinSocket_1x09_P1.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.00mm:PinSocket_1x09_P2.00mm_Horizontal Connector_PinSocket_2.00mm:PinSocket_1x09_P2.00mm_Vertical Connector_PinSocket_2.00mm:PinSocket_1x09_P2.00mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.00mm:PinSocket_1x09_P2.00mm_Vertical_SMD_Pin1Right Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Horizontal Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical_SMD_Pin1Left Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XS 9 connectors_1_1"
+			(rectangle
+				(start -20 5)
+				(end -2 0)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 0)
+				(end -2 -5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -5)
+				(end -2 -10)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -10)
+				(end -2 -15)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -15)
+				(end -2 -20)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -20)
+				(end -2 -25)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -25)
+				(end -2 -30)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -30)
+				(end -2 -35)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20 -35)
+				(end -2 -40)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.5) (xy 2 2.5) (xy 0 4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 2 -2.5) (xy 0 -0.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9.5) (xy 2 -7.5) (xy 0 -5.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -14.5) (xy 2 -12.5) (xy 0 -10.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -19.5) (xy 2 -17.5) (xy 0 -15.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -24.5) (xy 2 -22.5) (xy 0 -20.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -29.5) (xy 2 -27.5) (xy 0 -25.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -34.5) (xy 2 -32.5) (xy 0 -30.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -39.5) (xy 2 -37.5) (xy 0 -35.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -17.5) (xy 15 -17.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -22.5) (xy 15 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -27.5) (xy 15 -27.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -32.5) (xy 15 -32.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -37.5) (xy 15 -37.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7 2.5) (xy 7 -37.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.5 2.5) (xy 8.5 -37.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 2.5) (xy 2 2.5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 4.5 4.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at 4.5 -0.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at 4.5 -5.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at 4.5 -10.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at 4.5 -15.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "6"
+				(at 4.5 -20.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "7"
+				(at 4.5 -25.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "8"
+				(at 4.5 -30.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "9"
+				(at 4.5 -35.5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 2.5 180)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -2.5 180)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -7.5 180)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -12.5 180)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -17.5 180)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -22.5 180)
+				(length 5)
+				(name "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -27.5 180)
+				(length 5)
+				(name "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -32.5 180)
+				(length 5)
+				(name "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 -37.5 180)
+				(length 5)
+				(name "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "micro-sd"
+		(pin_names
+			(offset 2)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XS"
+			(at 0 27.5 0)
+			(effects
+				(font
+					(face "OpenGost Type B TT")
+					(size 5 5)
+					(italic yes)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "micro sd карта разъём"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_Card:microSD_HC_Hirose_DM3BT-DSF-PEJS Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5 Connector_Card:microSD_HC_Hirose_DM3D-SF Connector_Card:microSD_HC_Molex_47219-2001 Connector_Card:microSD_HC_Molex_104031-0811 Connector_Card:microSIM_JAE_SF53S006VCBR2000"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "micro-sd_1_1"
+			(polyline
+				(pts
+					(xy -15 20) (xy -2 20)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.5 20) (xy -8.5 -20)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7 20) (xy -7 -20)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2 15) (xy -15 15)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2 10) (xy -15 10)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2 5) (xy -15 5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2 0) (xy -15 0)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2 -5) (xy -15 -5)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2 -10) (xy -15 -10)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2 -15) (xy -15 -15)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2 -20) (xy -15 -20)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 18) (xy -2 20) (xy 0 22)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 13) (xy -2 15) (xy 0 17)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 8) (xy -2 10) (xy 0 12)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3) (xy -2 5) (xy 0 7)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2) (xy -2 0) (xy 0 2)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -7) (xy -2 -5) (xy 0 -3)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -12) (xy -2 -10) (xy 0 -8)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -17) (xy -2 -15) (xy 0 -13)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -22) (xy -2 -20) (xy 0 -18)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 22.5)
+				(end 17.5 17.5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 17.5)
+				(end 17.5 12.5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 12.5)
+				(end 17.5 7.5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 7.5)
+				(end 17.5 2.5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 2.5)
+				(end 17.5 -2.5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 -2.5)
+				(end 17.5 -7.5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 -7.5)
+				(end 17.5 -12.5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 -12.5)
+				(end 17.5 -17.5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 -17.5)
+				(end 17.5 -22.5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at -5 22 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "2"
+				(at -5 17 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "3"
+				(at -5 12 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "4"
+				(at -5 7 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "5"
+				(at -5 2 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "6"
+				(at -5 -3 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "7"
+				(at -5 -8 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "8"
+				(at -5 -13 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "9"
+				(at -5 -18 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "DAT2"
+				(at 9 20 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "DAT3"
+				(at 9 15 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "CMD"
+				(at 9 10 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "VDD"
+				(at 9 5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "CLK"
+				(at 9 0 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "VSS"
+				(at 9 -5 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "DAT0"
+				(at 9 -10 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "DAT1"
+				(at 9 -15 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "SHIELD"
+				(at 9 -20 0)
+				(effects
+					(font
+						(face "OpenGost Type B TT")
+						(size 3.5 3.5)
+						(italic yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at -15 20 0)
+				(length 5)
+				(name "DAT2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15 15 0)
+				(length 5)
+				(name "DAT3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15 10 0)
+				(length 5)
+				(name "CMD"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15 5 0)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15 0 0)
+				(length 5)
+				(name "CLK"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -15 -5 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15 -10 0)
+				(length 5)
+				(name "DAT0"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15 -15 0)
+				(length 5)
+				(name "DAT1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15 -20 0)
+				(length 5)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
