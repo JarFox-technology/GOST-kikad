@@ -53,3 +53,5 @@
 <h3 align="center">Интеграция</h3>
 <h4 align="left">Перечень элементов, спецификация и многие другие текстовые документы по ЕСКД:</h4>
 <h4>https://github.com/baranovskiykonstantin/eskd-templates</h4>
+<h4 align="justify">Данный проект реализован на Kicad 9.0. Чтобы перевести файлы на другие версии можно использовать конвертер версий:</h4>
+<h4>https://www.nextpcb.com/kicad-version-converter</h4>
